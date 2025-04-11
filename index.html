@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Styles - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Alex Styles</h1>
+        <nav>
+            <a href="#about-me" class="nav-link" data-tooltip="Learn more about me">About</a>
+            <a href="#portfolio" class="nav-link" data-tooltip="My recent projects">Portfolio</a>
+            <a href="#contact" class="nav-link" data-tooltip="Get in touch">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Alex Styles, a passionate web developer with a keen eye for design and a love for creating engaging online experiences. My journey into web development began several years ago, and I've been hooked ever since. 
+        </p>
+        <p>
+            I specialize in front-end development, focusing on HTML, CSS, and JavaScript. I enjoy transforming design concepts into clean, functional, and user-friendly websites. My goal is to always deliver high-quality work that exceeds expectations.
+        </p>
+        <p>
+            When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee. I'm always eager to learn and grow, and I'm excited to see where the world of web development takes me next.
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200?text=Project+1" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
+                <button class="view-project" data-modal="project1-modal">View Details</button>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200?text=Project+2" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Description of Project 2.</p>
+                <button class="view-project" data-modal="project2-modal">View Details</button>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200?text=Project+3" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Description of Project 3.</p>
+                <button class="view-project" data-modal="project3-modal">View Details</button>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200?text=Project+4" alt="Project 4">
+                <h3>Project 4</h3>
+                <p>Description of Project 4.</p>
+                <button class="view-project" data-modal="project4-modal">View Details</button>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200?text=Project+5" alt="Project 5">
+                <h3>Project 5</h3>
+                <p>Description of Project 5.</p>
+                <button class="view-project" data-modal="project5-modal">View Details</button>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200?text=Project+6" alt="Project 6">
+                <h3>Project 6</h3>
+                <p>Description of Project 6.</p>
+                <button class="view-project" data-modal="project6-modal">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: alex.styles@example.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Alex Styles</p>
+    </footer>
+
+    <div id="project1-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Project 1 Details</h2>
+            <p>Detailed description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+    </div>
+    <div id="project2-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Project 2 Details</h2>
+            <p>Detailed description of Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+    </div>
+    <div id="project3-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Project 3 Details</h2>
+            <p>Detailed description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+    </div>
+    <div id="project4-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Project 4 Details</h2>
+            <p>Detailed description of Project 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+    </div>
+    <div id="project5-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Project 5 Details</h2>
+            <p>Detailed description of Project 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+    </div>
+    <div id="project6-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Project 6 Details</h2>
+            <p>Detailed description of Project 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
