@@ -77,5 +77,3 @@ To customize this portfolio for your own use:
 For any questions or further information, please contact:
 
 Natthapath Damrongsri
-natthapath.d@gmail.com
-086 369 3197
