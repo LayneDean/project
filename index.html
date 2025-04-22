@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Natthapath Damrongsri</h1>
+        <div class="logo">ND</div>
         <nav>
             <a href="#about" class="nav-link" data-tooltip="Learn more about me">About</a>
             <a href="#portfolio" class="nav-link" data-tooltip="My recent projects">Portfolio</a>
@@ -16,51 +16,64 @@
         </nav>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Hello! I'm Natthapath Damrongsri, a UX/UI Designer based in Bangkok. I'm passionate about crafting user-centered solutions that improve usability, accessibility, and efficiency.
-        </p>
+    <section id="hero">
+        <div class="hero-info">
+            <h1 class="hero-title">Natthapath Damrongsri</h1>
+            <p class="hero-subtitle">UX/UI Designer in Bangkok</p>
+        </div>
+        <p class="hero-description">Crafting user-centered solutions to improve usability, accessibility, and efficiency.</p>
     </section>
 
     <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="portfolio-grid">
             <div class="portfolio-item">
-                <img src="https://via.placeholder.com/300x200?text=Naaraan" alt="Naaraan">
-                <h3>Naaraan</h3>
-                <p>Designed Naaraan, an e-commerce platform empowering SMEs to easily create online stores.</p>
-                <button class="view-project" data-modal="naaraan-modal">More</button>
+                <div class="placeholder-image project">Project 1</div>
+                <div class="portfolio-item-content">
+                    <h3>Naaraan</h3>
+                    <p>Designed Naaraan, an e-commerce platform empowering SMEs to easily create online stores.</p>
+                    <a href="#" class="view-project" data-modal="naaraan-modal">More</a>
+                </div>
             </div>
             <div class="portfolio-item">
-                <img src="https://via.placeholder.com/300x200?text=Customer+Data+Platform" alt="Customer Data Platform">
-                <h3>Customer Data Platform</h3>
-                <p>CDP is a software system that collects, organizes, and centralizes customer data from multiple sources to create a unified customer profile.</p>
-                <button class="view-project" data-modal="cdp-modal">More</button>
+                <div class="placeholder-image project">Project 2</div>
+                <div class="portfolio-item-content">
+                    <h3>Customer Data Platform</h3>
+                    <p>CDP is a software system that collects, organizes, and centralizes customer data from multiple sources to create a unified customer profile.</p>
+                    <a href="#" class="view-project" data-modal="cdp-modal">More</a>
+                </div>
             </div>
             <div class="portfolio-item">
-                <img src="https://via.placeholder.com/300x200?text=Counter+Service" alt="Counter Service">
-                <h3>Counter Service</h3>
-                <p>Redesigned CounterService, 7-Eleven’s POS system, optimizing it for small screens and hardware to create a faster, more seamless checkout experience.</p>
-                <button class="view-project" data-modal="counterservice-modal">More</button>
+                <div class="placeholder-image project">Project 3</div>
+                <div class="portfolio-item-content">
+                    <h3>Counter Service</h3>
+                    <p>Redesigned CounterService, 7-Eleven’s POS system, optimizing it for small screens and hardware to create a faster, more seamless checkout experience.</p>
+                    <a href="#" class="view-project" data-modal="counterservice-modal">More</a>
+                </div>
             </div>
             <div class="portfolio-item">
-                <img src="https://via.placeholder.com/300x200?text=Time+Attendance" alt="Time Attendance">
-                <h3>Time Attendance</h3>
-                <p>Duis risus tellus, iaculis nec ante sed, sagittis mattis turpis. Nulla facilisi. Proin aliquet sed turpis et consequat. Vestibulum non fringilla odio. Sed sodales nisi leo, a.</p>
-                <button class="view-project" data-modal="timeattendance-modal">More</button>
+                <div class="placeholder-image project">Project 4</div>
+                <div class="portfolio-item-content">
+                    <h3>Time Attendance</h3>
+                    <p>Duis risus tellus, iaculis nec ante sed, sagittis mattis turpis. Nulla facilisi. Proin aliquet sed turpis et consequat. Vestibulum non fringilla odio. Sed sodales nisi leo, a.</p>
+                    <a href="#" class="view-project" data-modal="timeattendance-modal">More</a>
+                </div>
             </div>
             <div class="portfolio-item">
-                <img src="https://via.placeholder.com/300x200?text=Showtime+Swipe" alt="Showtime Swipe">
-                <h3>Showtime Swipe</h3>
-                <p>Showtime Swipe aggregating cinema showtimes from multiple distributors into one platform.</p>
-                <button class="view-project" data-modal="showtimeswipe-modal">More</button>
+                <div class="placeholder-image project">Project 5</div>
+                <div class="portfolio-item-content">
+                    <h3>Showtime Swipe</h3>
+                    <p>Showtime Swipe aggregating cinema showtimes from multiple distributors into one platform.</p>
+                    <a href="#" class="view-project" data-modal="showtimeswipe-modal">More</a>
+                </div>
             </div>
             <div class="portfolio-item">
-                <img src="https://via.placeholder.com/300x200?text=UX+Research+Study" alt="UX Research Study Grocery Delivery">
-                <h3>UX Research Study Grocery Delivery</h3>
-                <p>Studying Thai online grocery app UX via user interviews to improve user experience.</p>
-                <button class="view-project" data-modal="uxresearch-modal">More</button>
+                <div class="placeholder-image project">Project 6</div>
+                <div class="portfolio-item-content">
+                    <h3>UX Research Study Grocery Delivery</h3>
+                    <p>Studying Thai online grocery app UX via user interviews to improve user experience.</p>
+                    <a href="#" class="view-project" data-modal="uxresearch-modal">More</a>
+                </div>
             </div>
         </div>
     </section>
@@ -95,7 +108,7 @@
             <span class="close-modal">&times;</span>
             <h2>Counter Service</h2>
             <p>Redesigned CounterService, 7-Eleven’s POS system, optimizing it for small screens and hardware to create a faster, more seamless checkout experience. [Include details about the challenges, design solutions, and improvements achieved.]</p>
-        </div>
+    </div>
     </div>
     <div id="timeattendance-modal" class="modal">
         <div class="modal-content">
@@ -118,7 +131,6 @@
             <p>Studying Thai online grocery app UX via user interviews to improve user experience. [Describe the research methodology, key findings, and potential design recommendations from this study.]</p>
         </div>
     </div>
-
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const viewProjectButtons = document.querySelectorAll('.view-project');
@@ -126,7 +138,8 @@
             const modals = document.querySelectorAll('.modal');
 
             viewProjectButtons.forEach(button => {
-                button.addEventListener('click', function() {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault(); // Prevent the default link behavior
                     const modalId = this.dataset.modal;
                     const modal = document.getElementById(modalId);
                     if (modal) {
