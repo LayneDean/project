@@ -79,4 +79,3 @@ For any questions or further information, please contact:
 Natthapath Damrongsri
 natthapath.d@gmail.com
 086 369 3197
-[Your LinkedIn Profile URL]
