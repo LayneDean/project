@@ -291,4 +291,9 @@ footer {
         text-align: center;
     }
     .placeholder-image {
-        font-size: 1.5em; /* Adjust
+        font-size: 1.5em; /* Adjust text size for smaller screens */
+        height: 96px; /* Adjust height for smaller screens */
+    }
+}
+
+@media (max-width: 1024px)
